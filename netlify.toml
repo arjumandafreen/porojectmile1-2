@@ -1,9 +1,10 @@
 [build]
   base = "/"
-  command = "npm run build"
-  publish = "build"
+  command = ""  
+  publish = "/" 
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
